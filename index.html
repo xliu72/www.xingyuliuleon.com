@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript">
+      addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+      	function hideURLbar(){ window.scrollTo(0,1); }
+    </script>
+    <!-- //for-mobile-apps -->
+    <link
+      href="css/bootstrap.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- js -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <!-- //js -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Oleo+Script:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Oswald:300,400,700"
+      rel="stylesheet"
+    />
+
+    <!-- start-smooth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1000
+          );
+        });
+      });
+    </script>
+    <!-- start-smooth-scrolling -->
+  </head>
+
+  <body>
+    <!-- banner -->
+    <div class="banner-figures">
+      <div class="banner">
+        <div class="container banner-drop">
+          <div class="header">
+
+            <div class="header-right">
+              <nav>
+                <ul>
+                  <li class="active">
+                    <a href="index.html" class="active"><span>Home</span></a>
+                  </li>
+                  <li>
+                    <a href="#about" class="scroll"><span>About</span></a>
+                  </li>
+                  <li>
+                    <a href="#experience" class="scroll"
+                      ><span>Experience</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#projects" class="scroll"><span>Projects</span></a>
+                  </li>
+                  <li>
+                    <a href="#contact" class="scroll"><span>Contact</span></a>
+                  </li>
+                </ul>
+              </nav>
+              <div
+                class="menu-icon animated wow zoomIn"
+                data-wow-duration="1000ms"
+                data-wow-delay="800ms"
+              >
+                <span></span>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="name">
+            <h2>Xingyu Liu</h2>
+            <p style = "font-weight: bold">Software Developer & Engineer</p>
+          </div>
+          <div
+            class="social-icons animated wow bounceInDown"
+            data-wow-duration="1000ms"
+            data-wow-delay="800ms"
+          >
+            <ul class="top-links">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="banner-btm-grid-w3ls">
+          <div class="banner-left-wthree">
+            <img src="images/banner-btm.jpg" alt=" " class="img-responsive" />
+            <ul class="address">
+              <li>
+                <ul class="address-text">
+                  <li><b>NAME</b></li>
+                  <li>: Xingyu Liu</li>
+                </ul>
+              </li>
+              <li>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>E-MAIL </b></li>
+                  <li>
+                    <a href="mailto:xliu72@buffalo.edu">: xliu72@buffalo.edu</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <script>
+        (function($) {
+          $(".menu-icon").on("click", function() {
+            $(this).toggleClass("open");
+            $(".container").toggleClass("nav-open");
+            $("nav ul li").toggleClass("animate");
+          });
+        })(jQuery);
+      </script>
+    </div>
+
+    <!-- //banner -->
+    <!-- about -->
+    <div class="about" id="about">
+      <div class="container">
+        <span class="about-top-w3">Who I am?</span>
+        <h4 class="title-w3ls">About Me</h4>
+        <h5 class="sub">University at Buffalo, The State University of New York </h5>
+        <h5 class = "sub">Graduation: May 2020</h5>
+        <h5 class = "sub">B.S of Computer Science</h5>          
+          <h5 class = "sub">GPA: 3.92/4.00</h5>          
+        <p class="para-w3-agile">
+          I am a quick learner and love to learn new things that can expand my
+          knowledge in the field of software engineering. I am looking for a
+          interesting and challenging software engineer internship for this
+          summer. My main focus is to learn new technology that can enhance my
+          software development skills.
+        </p>
+
+        <div class="skills-bar">
+          <h4 class="title-w3ls">My Skills</h4>
+          <section class="bar">
+            <section class="wrap">
+              <div class="wrap_right">
+                <div class="bar_group">
+                  <div
+                    class="bar_group__bar thin"
+                    label="Javascript"
+                    show_values="true"
+                    tooltip="true"
+                    value="350"
+                  ></div>
+                  <div
+                    class="bar_group__bar thin"
+                    label="Java"
+                    show_values="true"
+                    tooltip="true"
+                    value="525"
+                  ></div>
+                  <div
+                    class="bar_group__bar thin"
+                    label="PHP"
+                    show_values="true"
+                    tooltip="true"
+                    value="450"
+                  ></div>
+                  <div
+                    class="bar_group__bar thin"
+                    label="Node.js"
+                    show_values="true"
+                    tooltip="true"
+                    value="300"
+                  ></div>
+                  <div
+                    class="bar_group__bar thin"
+                    label="HTML"
+                    show_values="true"
+                    tooltip="true"
+                    value="500"
+                  ></div>
+
+                </div>
+              </div>
+              <div class="clear"></div>
+            </section>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div id="experience" class="experience">
+      <div class="container">
+        <h4 class="title-w3ls">Work Experience</h4>
+        <div class="work-info">
+          <div class="col-md-6 work-left">
+            <h4>Sep 2018 - Dec 2018</h4>
+          </div>
+          <div class="col-md-6 work-right">
+            <h5>
+              <span class="glyphicon glyphicon-briefcase"> </span> Research Assistant | Center for Unified Biometrics and Sensors
+            </h5>
+            <p>
+              · Collected and investigated data to develop the lie detector system.
+              <br>
+              · Utilized face recognition to check the similarity of different modules.
+            </p>
+          </div>
+          <div class="clearfix"></div>
+		</div>
+		
+
+
+
+
+
+        <div class="work-info">
+          <div class="col-md-6 work-right work-right2">
+            <h4>Jan 2018 - May 2018</h4>
+          </div>
+          <div class="col-md-6 work-left work-left2">
+            <h5>
+              Research Assistant | University at Buffalo
+              <span class="glyphicon glyphicon-briefcase"> </span>
+            </h5>
+            <p>
+            · Upgraded Botanical Application by adding database statistics and making web design more artistic.
+            <br>
+            · Tool used: SQL visual studio, HTML, CSS
+            </p>
+          </div>
+          <div class="clearfix"></div>
+		</div>
+		
+
+
+
+      </div>
+    </div>
+    <!--//work-experience-->
+
+    <!-- projects -->
+    <div class="projects" id="projects">
+      <div class="container">
+        <h4 class="title-w3ls"> Projects</h4>
+        <div class="news-bottom">
+				<a>
+						<img src="images/p1.jpg" alt="" />
+					  </a>
+            <div class="col-md-6 news-right">
+              <a><h4>Buy and Sell Item Platform February</h4></a>
+              <p class="para-w3-agile">
+                 1. Developed a web application for students to exchange their items 
+                 <br>
+                 2. Improved faster rendering Virtual-Dom via REACT
+                 <br>3. Developed unit test utilizing Mochajs and built login authority to the platform by using third party API 
+              </p>
+            </div>
+
+            <div class="clearfix"></div>
+		  </div>
+		  
+
+		  
+
+
+
+          <div class="news-one-wthree-agile">
+
+            <div class="col-md-6 news-left">
+
+			</div>
+			
+			<div class="col-md-6 news-right">
+					<a ><h4>Trading Market</h4></a>
+					<p class="para-w3-agile">
+            1. Designed and implemented a Decentralized application for the trading market place <br> 
+            2. Implemented smart contract via Solidity and Remix IDE <br>
+            3. Utilized Sql/mySQL, Express.js, Node.js, Solidity
+					</p>
+				  </div>
+            <div class="clearfix"></div>
+		  </div>
+		  
+
+
+		  
+          <div class="news-one-wthree-agile">
+				<div class="col-md-6 news-right">
+						<a ><h4>HTML Validator</h4></a>
+						<p class="para-w3-agile">
+1. Developed a program that checks whether the given syntax of HTML file is valid or not 
+<br>2. Utilized C++
+						</p>
+					  </div>
+            <div class="col-md-6 news-left">
+            </div>
+
+            <div class="clearfix"></div>
+		  </div>
+		  
+          <div class="news-one-wthree-agile">
+            <div class="col-md-6 news-left">
+            </div>
+            <div class="col-md-6 news-right">
+              <a><h4>Fractal Images Generator</h4></a>
+              <p class="para-w3-agile">
+                
+· Created an interface allows user to generate fractals with choices of graph, color and escape time/distance. 	Users can zoom in/out on fractal image.
+              </p>
+            </div>
+            <div class="clearfix"></div>
+		  </div>
+		  
+
+
+
+		  
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <div class="container">
+        <div
+          class="social-icons animated wow bounceInDown"
+          data-wow-duration="1000ms"
+          data-wow-delay="800ms"
+        >
+          <ul class="top-links">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+          </ul>
+        </div>
+        <p>&copy; Xingyu Liu</p>
+      </div>
+    </div>
+    <!-- //footer -->
+    <script src="js/bars.js"></script>
+
+    <!-- here stars scrolling icon -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        /*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+        $().UItoTop({ easingType: "easeOutQuart" });
+      });
+    </script>
+    <!-- //here ends scrolling icon -->
+  </body>
+</html>
